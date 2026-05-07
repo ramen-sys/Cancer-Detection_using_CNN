@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual Environment
+venv/
+
+# Large datasets - DO NOT COMMIT
+IDC_regular_ps50_idx5/
+data/
+
+# Models
+models/
+*.h5
+*.tflite
+
+# Temporary files
+*.png
+*.jpg
+temp.png
