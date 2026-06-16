@@ -30,6 +30,7 @@ print(f" Found {len(benign_files)} benign PNG files")
 
 #parse filename to determine class
 for file_path in png_files:
+    print(file_path)
     filename=file_path.name
 
     if "_class0.png" in filename:
